@@ -1,0 +1,62 @@
+.posts__container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.posts__cat {
+  flex: 1;
+  padding: 20px;
+}
+
+.posts__cards {
+  flex: 5;
+  gap: 20px;
+  display: flex;
+  padding: 20px;
+}
+
+.posts__card {
+  background-color: white;
+  width: 30%;
+  box-shadow: 0 0 10px 3px #ededed;
+}
+
+.posts__card img {
+  padding: 20px;
+}
+
+.posts__detail {
+  padding: 20px;
+  line-height: 3;
+}
+
+.posts__price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.posts__price p:first-child {
+  font-size: 18px;
+  color: gold;
+  font-weight: bold;
+}
+
+.posts__price p:last-child {
+  font-size: 18px;
+  color: black;
+}
+.posts__button {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: gold;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+}
+
+.posts__button:hover {
+  background-color: white;
+  border: 1px solid gold;
+  color: gold;
+}
